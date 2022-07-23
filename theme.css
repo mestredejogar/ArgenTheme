@@ -1,3 +1,117 @@
-.scroller-1ox3I2 {
-    background-color: black;
+/* Animações */ 
+.menu-1QACrS, .browser-mnQ1T7, .messagesPopoutWrap-3zryHW, .wrapper-1NB3WY, .container-3u7RcY, .container-2ebMPP, .userPopout-2j1gM4 {
+    animation: custom-menu-animation 250ms ease;
+    transform-origin: top;
+    box-shadow: inset;
 }
+
+.menu-1QACrS, .colorDefault-CDqZdO { 
+    border-radius: 5px; 
+     background:  rgba(10, 14, 18, 1);
+}
+
+@keyframes custom-menu-animation {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+/* Player Background */ 
+
+.userPopout-2j1gM4, .bodyInnerWrapper-2bQs1k, .footer-3naVBw {
+    background: rgba(10, 14, 18, 1);
+}
+
+.inputDefault-3FGxgL{
+    background: rgb(15, 21, 27);
+}
+
+/* Player Background | Cargo Cor */ 
+
+.role-2TIOKu {
+    transform: translate(0);
+    border-radius: 25px;
+}
+
+.rolesList-3uZoaa .roleRemoveIcon-387wKV {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.rolesList-3uZoaa .roleRemoveIcon-387wKV > path {
+    display: none;
+}
+
+.roleRemoveButton-17oXnT {
+    position: static;
+}
+
+.roleCircle-3K9O3d:before {
+    content: '';
+    position: absolute;
+    background: inherit;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    border-radius: 25px;
+}
+
+/* Barra da Esquerda*/
+
+.icon-2W8DHg {
+    color: rgba(138, 170, 240, 0.8);
+}
+
+.scroller-1ox3I2{
+    background: rgb(15, 20, 26);
+    z-index: -1px;
+}
+
+.animatedContainer-2laTjx {
+    z-index: 2;
+}
+
+.header-3OsQeK  {
+    background: rgb(12, 14, 17);
+}
+
+.container-6sXIoE, .withTimeline-824fT_{
+    background: rgb(12, 16, 20);
+}
+
+.container-1zzFcN, .container-YkUktl, .panels-3wFtMD {
+    background: rgb(12, 16, 20);
+}
+
+.container-ZMc96U.themed-Hp1KC_, .scroller-WSmht3, .thin-31rlnD, .scrollerBase-_bVAAt, .fade-1R6FHN {
+    background: rgb(12, 14, 17);
+}
+
+.scroller-3X7KbA, .privateChannels-oVe7HL{
+    background: rgb(10, 12, 16);
+}
+
+.container-2o3qEW, .membersWrap-3NUR2t, .hiddenMembers-8kpYM0, .members-3WRCEx, .members-3WRCEx>div{
+    background: rgb(15, 20, 26);
+}
+
+/* Chat */
+
+.scroller-kQBbkU, .form-3gdLxP {
+    background: rgb(29, 33, 36);
+}
+
+.message-2CShn3:hover {
+    background: rgba(15, 14, 17, 0.3);
+}
+
+/* Botão Direito | Informações Membro */
