@@ -1,14 +1,4 @@
-/**
- * @name ArgenTheme
- * @author Argentino 
- * @version 0.0.3
- * @description Highly customizable theme for BetterDiscord.
- * @source https://github.com/mestredejogar/ArgenTheme/tree/main
- */
 
-/**/
-
-/* Animações */ 
 .menu-1QACrS, .browser-mnQ1T7, .messagesPopoutWrap-3zryHW, .wrapper-1NB3WY, .container-3u7RcY, .container-2ebMPP, .userPopout-2j1gM4 {
     animation: custom-menu-animation 250ms ease;
     transform-origin: top;
